@@ -1,0 +1,8 @@
+// Baseline temp for kelvin
+const kelvin = 78;
+// Baseline temp for celsius
+let celsius = kelvin - 273;
+//Equation for converting celsius into fahrenheit
+//Rounded down
+let fahrenheit = Math.floor(celsius * (9/5) + 32);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
