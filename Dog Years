@@ -1,0 +1,16 @@
+//My age baseline
+const myAge = 60;
+//Early Years
+let earlyYears = 2;
+earlyYears *= 10.5;
+//Removing 2 years from my age accounted for elsewhere
+let laterYears = myAge - 2;
+//Laters Years multiplied by 4 = dog years/later years
+laterYears *= 4;
+/*console.log(earlyYears);
+console.log(laterYears);*/
+let myAgeInDogYears = earlyYears + laterYears;
+//My name will feature in lower case letters
+let myName = "ann".toLowerCase();
+//Final output:
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
